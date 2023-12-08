@@ -11,7 +11,6 @@ btnMenu.addEventListener("click", () => {
 });
 
 
-
 const tabButtons = document.querySelector(".tab-buttons");
 const tabContainer = document.querySelector(".all-tabs");
 
@@ -38,7 +37,6 @@ tabButtons.addEventListener("click", (e) => {
 
   selectedTab.classList.add("tabs-active");
 });
-
 
 
 const swiper = new Swiper('.swiper', {

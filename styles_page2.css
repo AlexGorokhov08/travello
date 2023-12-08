@@ -1,16 +1,13 @@
-
-
 .all-tabs-page2 {
-    margin: auto;
-    padding: 20px;
-  }
+  margin: auto;
+  padding: 20px;
+}
 
-  .tab-btn-active {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    max-width: 200px;
-    margin:60px auto;
-    padding: 10px 0;
-  }
-  
+.tab-btn-active {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  max-width: 200px;
+  margin: 60px auto;
+  padding: 10px 0;
+}
