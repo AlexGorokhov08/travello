@@ -68,7 +68,7 @@ a:visited,
       var(--background-transparent) 95%,
       var(--background)
     ),
-    url("./img/bg-title.png");
+    url(./img/bg-title.png);
   background-size: cover;
   background-position: center;
   padding: 0 20px;
