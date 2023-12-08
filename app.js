@@ -11,12 +11,6 @@ btnMenu.addEventListener("click", () => {
 });
 
 
-/* const viewAll = document.querySelector(".view-all")
-const tabs = document.querySelectorAll(".tabs")
-
-viewAll.addEventListener("click", () => {
-  tabs.classList.toggle("tabs-active")
-}) */
 
 const tabButtons = document.querySelector(".tab-buttons");
 const tabContainer = document.querySelector(".all-tabs");
