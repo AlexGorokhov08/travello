@@ -10,7 +10,6 @@ btnMenu.addEventListener("click", () => {
   navList.classList.toggle("show");
 });
 
-
 const tabButtons = document.querySelector(".tab-buttons");
 const tabContainer = document.querySelector(".all-tabs");
 
@@ -38,13 +37,12 @@ tabButtons.addEventListener("click", (e) => {
   selectedTab.classList.add("tabs-active");
 });
 
-
-const swiper = new Swiper('.swiper', {
-  direction: 'horizontal',
-  loop: false,
+const swiper = new Swiper(".swiper", {
+  direction: "horizontal",
+  loop: true,
 
   pagination: {
-    el: '.swiper-pagination',
-    clickable: true
+    el: ".swiper-pagination",
+    clickable: true,
   },
 });
